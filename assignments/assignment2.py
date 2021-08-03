@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
 # Load train dataset & drop NaN entries
-df = pd.read_csv('../data/train.csv')
+df = pd.read_csv('../data/titanic/train.csv')
 df.dropna(inplace=True)
 
 #Q1: What is the most frequently-occurring age for males and females?

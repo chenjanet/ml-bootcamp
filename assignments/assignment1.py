@@ -1,8 +1,8 @@
 import pandas as pd
 import re
 
-test_df = pd.read_csv('../data/test.csv')
-train_df = pd.read_csv('../data/train.csv')
+test_df = pd.read_csv('../data/titanic/test.csv')
+train_df = pd.read_csv('../data/titanic/train.csv')
 
 #Q1: Create a list of integers starting from 1 to 100,000 where each number is squared.
 squared_integers = [ x**2 for x in range(1, 100001)]
